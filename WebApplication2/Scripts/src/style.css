@@ -1,0 +1,64 @@
+﻿body {
+}
+button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 98%;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+}
+
+button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+}
+input {
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+}
+input.error{
+    border:1px solid red;
+}
+.errorMessage {
+    color: red;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.wrapper-form {
+    max-width: 450px;
+    margin: auto;
+    border: 2px solid #519e8a;
+}
+.wrapper-form div{
+    padding: 10px;
+}
+.wrapper-form div input{
+    width:85%;
+    display:block;
+
+}
+.wrapper-form div input[type="submit"] {
+    width: 80%;
+    text-indent:0;
+}
+.chart{
+    width:100%;
+    height:100%;
+}
